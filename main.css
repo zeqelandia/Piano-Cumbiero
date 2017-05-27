@@ -1,0 +1,31 @@
+h1{
+	text-align: center;
+	font-size: 70px;
+	font-family: 'Indie Flower', cursive;
+	color: #C2BDBD;
+}
+
+html{
+	background-color: #262525;
+}
+
+.key{
+	border: 1px solid black;
+	width: 75px;
+	height: 500px;
+	background-color: #DBD6D6;
+	transition:all .07s;
+}
+
+.kb{
+  display:flex;
+  flex:1;
+  align-items: center;
+  justify-content: center;	
+}
+
+.playing{
+  transform:scale(1.1);
+  border-color:#ffc600;
+  box-shadow: 0 0 10px #ffc600;
+}
